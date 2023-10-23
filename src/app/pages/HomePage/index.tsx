@@ -4,6 +4,7 @@ import { NavBar } from 'app/components/NavBar';
 import { Masthead } from './Masthead';
 import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
+import { Information } from './Information';
 
 export function HomePage() {
   return (
@@ -17,6 +18,7 @@ export function HomePage() {
       </Helmet>
       {/* <NavBar /> */}
       <PageWrapper>
+        <Information />
         <Masthead />
         <Features />
       </PageWrapper>
