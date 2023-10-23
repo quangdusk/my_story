@@ -9,13 +9,13 @@ export function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Home Page</title>
+        <title>Nguyễn Đắc Quang</title>
         <meta
           name="description"
           content="A React Boilerplate application homepage"
         />
       </Helmet>
-      <NavBar />
+      {/* <NavBar /> */}
       <PageWrapper>
         <Masthead />
         <Features />
