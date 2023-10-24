@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
 import { CardLeft } from './CardLeft';
 import { CardCenter } from './CardCenter';
@@ -6,7 +7,7 @@ import { CardRight } from './CardRight';
 
 export function Card() {
   return (
-    <>
+    <Wrapper>
       <Row>
         <Col
           span={4}
@@ -36,6 +37,11 @@ export function Card() {
           <CardRight />
         </Col>
       </Row>
-    </>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  color: ${p => p.theme.text};
+  background: ${p => p.theme.background};
+`;

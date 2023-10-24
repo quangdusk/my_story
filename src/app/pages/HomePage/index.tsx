@@ -4,7 +4,6 @@ import { NavBar } from 'app/components/NavBar';
 import { Masthead } from './Masthead';
 import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
-import { Information } from './Information';
 import { Col, Row } from 'antd';
 import { Card } from './Card';
 
@@ -21,8 +20,7 @@ export function HomePage() {
       {/* <NavBar /> */}
       <PageWrapper>
         <Card />
-        {/* <Information />
-        <Masthead />
+        {/* <Masthead />
         <Features /> */}
       </PageWrapper>
     </>
