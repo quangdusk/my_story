@@ -5,6 +5,8 @@ import { Masthead } from './Masthead';
 import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
 import { Information } from './Information';
+import { Col, Row } from 'antd';
+import { Card } from './Card';
 
 export function HomePage() {
   return (
@@ -18,9 +20,10 @@ export function HomePage() {
       </Helmet>
       {/* <NavBar /> */}
       <PageWrapper>
-        <Information />
+        <Card />
+        {/* <Information />
         <Masthead />
-        <Features />
+        <Features /> */}
       </PageWrapper>
     </>
   );
