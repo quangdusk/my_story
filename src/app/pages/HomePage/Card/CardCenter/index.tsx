@@ -3,6 +3,7 @@ import styled from 'styled-components/macro';
 import Bowtie from 'images/bowtie.png';
 import { CardInfo } from './CardInfo';
 import { Row } from 'antd';
+import { CardInfoFooter } from './CardInfoFooter';
 
 export function CardCenter() {
   return (
@@ -12,6 +13,7 @@ export function CardCenter() {
       <CardInfo />
       <img src={Bowtie} className="rotate" />
       <div className="dot"></div>
+      <CardInfoFooter />
     </Wrapper>
   );
 }
