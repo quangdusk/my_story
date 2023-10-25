@@ -11,28 +11,28 @@ export function Card() {
       <Row>
         <Col
           span={4}
-          xs={{ order: 1 }}
-          sm={{ order: 2 }}
-          md={{ order: 3 }}
-          lg={{ order: 4 }}
+          xs={4}
+          sm={4}
+          md={4}
+          lg={4}
         >
           <CardLeft />
         </Col>
         <Col
           span={16}
-          xs={{ order: 1 }}
-          sm={{ order: 2 }}
-          md={{ order: 3 }}
-          lg={{ order: 4 }}
+          xs={16}
+          sm={16}
+          md={16}
+          lg={16}
         >
           <CardCenter />
         </Col>
         <Col
           span={4}
-          xs={{ order: 1 }}
-          sm={{ order: 2 }}
-          md={{ order: 3 }}
-          lg={{ order: 4 }}
+          xs={4}
+          sm={4}
+          md={4}
+          lg={4}
         >
           <CardRight />
         </Col>
