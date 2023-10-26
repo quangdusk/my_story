@@ -4,7 +4,7 @@ const lightTheme = {
   textSecondary: 'rgba(58,52,51,0.7)',
   background: '#FCF8E8',
   backgroundVariant: 'rgba(251,249,249,1)',
-  border: 'rgba(58,52,51,0.12)',
+  border: '#313990',
   borderLight: 'rgba(58,52,51,0.05)',
   yellow: '#d89a45'
 };

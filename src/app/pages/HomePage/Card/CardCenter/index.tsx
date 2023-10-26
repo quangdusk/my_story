@@ -4,6 +4,7 @@ import Bowtie from 'images/bowtie.png';
 import { CardInfo } from './CardInfo';
 import { Row } from 'antd';
 import { CardInfoFooter } from './CardInfoFooter';
+import FrameDecor from 'images/frame-decor-3.png';
 
 export function CardCenter() {
   return (
@@ -14,6 +15,7 @@ export function CardCenter() {
       <img src={Bowtie} className="rotate" />
       <div className="dot"></div>
       <CardInfoFooter />
+      <img className='rotateLeft45' src={FrameDecor} alt="" />
     </Wrapper>
   );
 }
@@ -32,5 +34,10 @@ const Wrapper = styled.div`
     font-family: Philosopher;
     font-weight: 300;
     color: ${p => p.theme.text};
+  }
+  .rotateLeft45 {
+    max-width: 230px;
+    display: flex;
+    margin: auto;
   }
 `;

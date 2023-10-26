@@ -5,7 +5,7 @@ import And from 'images/and.png';
 export function CardInfoFooter() {
   return (
     <Wrapper>
-      <h1 className='card_info_tittle'>06.09.2069</h1>
+      <h1 className='card_info_tittle'>06 . 09 . 2069</h1>
     </Wrapper>
   );
 }

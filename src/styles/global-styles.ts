@@ -53,9 +53,12 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 50%;
     background-color: ${p => p.theme.yellow};
     margin-top: 30px;
-    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .rotateLeft45 {
+    rotate: -45deg;
   }
 
   @media only screen and (max-width: 672px) {

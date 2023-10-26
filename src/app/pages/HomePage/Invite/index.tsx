@@ -1,11 +1,11 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
-import { CardLeft } from './CardLeft';
-import { CardCenter } from './CardCenter';
-import { CardRight } from './CardRight';
+import { InviteLeft } from './InviteLeft';
+import { InviteCenter } from './InviteCenter';
+import { InviteRight } from './InviteRight';
 
-export function Card() {
+export function Invite() {
   return (
     <Wrapper>
       <Row>
@@ -16,7 +16,7 @@ export function Card() {
           md={4}
           lg={4}
         >
-          <CardLeft />
+          <InviteLeft />
         </Col>
         <Col
           span={16}
@@ -25,7 +25,7 @@ export function Card() {
           md={16}
           lg={16}
         >
-          <CardCenter />
+          <InviteCenter />
         </Col>
         <Col
           span={4}
@@ -34,7 +34,7 @@ export function Card() {
           md={4}
           lg={4}
         >
-          <CardRight />
+          <InviteRight />
         </Col>
       </Row>
     </Wrapper>
@@ -42,7 +42,5 @@ export function Card() {
 }
 
 const Wrapper = styled.div`
-  color: ${p => p.theme.text};
-  background: ${p => p.theme.background};
-  border-bottom: 2px solid ${p => p.theme.border};
+
 `;

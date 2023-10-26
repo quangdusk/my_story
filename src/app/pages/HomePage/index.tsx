@@ -6,6 +6,7 @@ import { Features } from './Features';
 import { PageWrapper } from 'app/components/PageWrapper';
 import { Col, Row } from 'antd';
 import { Card } from './Card';
+import { Invite } from './Invite';
 
 export function HomePage() {
   return (
@@ -20,6 +21,7 @@ export function HomePage() {
       {/* <NavBar /> */}
       <PageWrapper>
         <Card />
+        <Invite />
         {/* <Masthead />
         <Features /> */}
       </PageWrapper>
