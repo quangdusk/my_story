@@ -1,16 +1,14 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import EventLeft from 'images/event-left-type3.png';
+import { Col, Row } from 'antd';
 
-export function InviteLeft() {
+export function Invite() {
   return (
     <Wrapper>
-      <img src={EventLeft} />
+        
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  position: absolute;
-  bottom: -150px;
 `;

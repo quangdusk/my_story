@@ -61,6 +61,28 @@ export const GlobalStyle = createGlobalStyle`
     rotate: -45deg;
   }
 
+  .tittle {
+    text-align: center;
+    color: ${p => p.theme.text};
+    font-family: Philosopher;
+    font-weight: 400;
+  }
+
+  .tittle_h2 {
+    font-size: 55px;
+  }
+  
+  .tittle_h1 {
+    font-size: 66px;
+  }
+  .tittle_h3 {
+    font-size: 36px;
+  }
+
+  .font_calligraphy {
+    font-family: Meow Script;
+  }
+
   @media only screen and (max-width: 672px) {
     .cardLeftImg, .cardRightImg {
       max-width: 170px;
