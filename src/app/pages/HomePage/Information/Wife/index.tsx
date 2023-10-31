@@ -1,12 +1,11 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
-import { Husband } from './Husband';
 
-export function Invite() {
+export function Wife() {
   return (
     <Wrapper>
-      <Husband />
+
     </Wrapper>
   );
 }

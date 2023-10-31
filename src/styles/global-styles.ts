@@ -71,7 +71,7 @@ export const GlobalStyle = createGlobalStyle`
   .tittle_h2 {
     font-size: 55px;
   }
-  
+
   .tittle_h1 {
     font-size: 66px;
   }
@@ -81,6 +81,12 @@ export const GlobalStyle = createGlobalStyle`
 
   .font_calligraphy {
     font-family: Meow Script;
+  }
+
+  .picture_profile {
+    width: 410px;
+    height: 580px;
+    border: 1px solid ${p => p.theme.yellow};
   }
 
   @media only screen and (max-width: 672px) {

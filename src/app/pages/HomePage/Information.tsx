@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Title } from './components/Title';
-import BowtieBot from '../../../images/bowtie-bot.png';
+import BowtieBot from 'images/bowtie.png';
 
 export function Information() {
   return (
