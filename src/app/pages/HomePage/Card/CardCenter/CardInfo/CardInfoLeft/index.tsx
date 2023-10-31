@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 export function CardInfoLeft() {
   return (
     <Wrapper>
-      <h1 className='card_info_tittle'>a</h1>
+      <h1 className='card_info_tittle'>Đắc Quang</h1>
     </Wrapper>
   );
 }

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import And from 'images/and.png';
 
 export function CardInfoFooter() {
   return (
@@ -16,5 +15,6 @@ const Wrapper = styled.div`
     font-style: initial;
     font-size: 55px;
     font-weight: normal;
+    padding-top: 8px;
   }
 `;

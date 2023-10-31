@@ -11,4 +11,7 @@ export function CardInfoCenter() {
 }
 const Wrapper = styled.div`
   text-align: center;
+  img {
+    max-width: 114px;
+  }
 `;

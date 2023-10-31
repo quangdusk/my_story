@@ -7,7 +7,7 @@ export function InviteCenter() {
   return (
     <Wrapper>
       <h2 className='tittle_h2 tittle'>Trân trọng kính mời</h2>
-      <h1 className='tittle_h1 tittle'>Bạn A cùng người thương</h1>
+      {/* <h1 className='tittle_h1 tittle'>Bạn A cùng người thương</h1> */}
       <h3 className='tittle_h3 tittle'>tới dự hôn lễ của 2 vợ chồng vào hồi</h3>
       <Time />
       <Address />
@@ -29,7 +29,7 @@ const Wrapper = styled.div`
     display: block;
     margin: auto;
     max-width: 500px;
-    margin-top: 100px;
+    margin-top: 20px;
   }
   .tittle_h3 {
     display: block;
@@ -37,6 +37,6 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     line-height: 40px;
     max-width: 500px;
-    margin-top: 50px;
+    margin-top: 60px;
   }
 `;

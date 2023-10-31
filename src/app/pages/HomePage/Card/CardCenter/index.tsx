@@ -9,7 +9,7 @@ import FrameDecor from 'images/frame-decor-3.png';
 export function CardCenter() {
   return (
     <Wrapper>
-      <h1 className="card_center_tittle">Xin chao cac ban</h1>
+      <h1 className="card_center_tittle">Lễ vu quy</h1>
       <img src={Bowtie} />
       <CardInfo />
       <img src={Bowtie} className="rotate" />
@@ -21,6 +21,8 @@ export function CardCenter() {
 }
 const Wrapper = styled.div`
   padding-top: 40px;
+  max-width: 1000px;
+  margin: auto;
   img {
     width: 100%;
   }

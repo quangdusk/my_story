@@ -13,5 +13,6 @@ const Wrapper = styled.div`
   .cardLeftImg {
     left: 0;
     position: absolute;
+    max-width: 400px;
   }
 `;

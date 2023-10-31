@@ -11,7 +11,7 @@ export function Time() {
         </div>
         <div>
             <h2 className='tittle_h2 tittle'>Thứ</h2>
-            <h2 className='tittle_h2 tittle'>6</h2>
+            <h2 className='tittle_h2 tittle'>06</h2>
         </div>
         <div>
             <h2 className='tittle_h2 tittle'>Tháng</h2>

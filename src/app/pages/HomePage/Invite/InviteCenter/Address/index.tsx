@@ -5,7 +5,7 @@ import styled from 'styled-components/macro';
 export function Address() {
   return (
     <Wrapper>
-        <h3 className='tittle_h3 tittle'>Tại địa chỉ</h3>
+        <h3 className='tittle_h3 tittle'>tại địa chỉ</h3>
         <h3 className='tittle_h3 tittle'>Tòa nhà N09B2 Thành Thái Dịch Vọng Hà Nội</h3>
         <h3 className='tittle font_calligraphy'>Sự hiện diện của bạn sẽ là niềm vinh hạnh lớn của chúng tôi</h3>
     </Wrapper>

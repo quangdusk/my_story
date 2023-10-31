@@ -6,7 +6,7 @@ import BowtieBot from 'images/bowtie.png';
 export function Information() {
   return (
     <Wrapper>
-      <Title>Xin chao cac ban</Title>
+      <Title>Lễ vu quy</Title>
       <img className='bottie_rotate' src={BowtieBot} />
     </Wrapper>
   );
