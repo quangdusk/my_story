@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
 import { Husband } from './Husband';
 
-export function Invite() {
+export function Information() {
   return (
     <Wrapper>
       <Husband />

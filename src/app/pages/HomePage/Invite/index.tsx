@@ -42,5 +42,5 @@ export function Invite() {
 }
 
 const Wrapper = styled.div`
-  border-bottom: 2px solid ${p => p.theme.border};
+  /* border-bottom: 2px solid ${p => p.theme.border}; */
 `;

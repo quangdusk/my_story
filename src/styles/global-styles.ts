@@ -89,6 +89,10 @@ export const GlobalStyle = createGlobalStyle`
     border: 1px solid ${p => p.theme.yellow};
   }
 
+  .picture_profile {
+    border-radius: 200px 200px 0% 0%;
+  }
+
   @media only screen and (max-width: 672px) {
     .cardLeftImg, .cardRightImg {
       max-width: 170px;

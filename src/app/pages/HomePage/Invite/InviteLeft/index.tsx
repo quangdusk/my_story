@@ -13,4 +13,5 @@ export function InviteLeft() {
 const Wrapper = styled.div`
   position: absolute;
   bottom: -150px;
+  z-index: 2;
 `;
