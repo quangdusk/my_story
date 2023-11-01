@@ -87,5 +87,16 @@ const Wrapper = styled.div`
   }
   .tittle_h2 {
     color: ${p => p.theme.blue};
+    font-size: 40px;
+    margin: 0px;
+  }
+  .tittle {
+    text-align: left;
+  }
+  .tittle_h1 {
+    text-shadow: -2px 2px 0px rgba(28, 28, 28, 0.25);
+    font-weight: 500;
+    font-size: 85px;
+    margin: 0px;
   }
 `;

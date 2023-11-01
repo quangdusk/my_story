@@ -40,9 +40,6 @@ export function Address() {
           </div>
         </div>
       </Tooltip>
-      <h3 className="tittle_h3 tittle">
-        Tòa nhà N09B2 Thành Thái Dịch Vọng Hà Nội
-      </h3>
       <h3 className="tittle tittle_h3 font_calligraphy">
         Sự hiện diện của bạn sẽ là niềm vinh hạnh lớn của chúng tôi
       </h3>
@@ -62,11 +59,10 @@ const Wrapper = styled.div`
   }
   .flip-card {
     background-color: transparent;
-    width: 40px;
-    height: 40px;
     perspective: 1000px;
     margin: auto;
     margin-top: 20px;
+    min-height: 70px;
   }
 
   .flip-card-inner {
@@ -90,6 +86,12 @@ const Wrapper = styled.div`
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     left: 0;
+  }
+
+  .flip-card-front img,
+  .flip-card-back img {
+    width: 40px;
+    height: 40px;
   }
 
   .flip-card-back {

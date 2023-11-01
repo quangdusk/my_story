@@ -93,6 +93,11 @@ export const GlobalStyle = createGlobalStyle`
     border-radius: 200px 200px 0% 0%;
   }
 
+  p {
+    font-size: 20px;
+    color: ${p => p.theme.textSecondary};
+  }
+
   @media only screen and (max-width: 672px) {
     .cardLeftImg, .cardRightImg {
       max-width: 170px;
