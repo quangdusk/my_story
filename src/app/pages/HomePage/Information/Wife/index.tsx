@@ -88,8 +88,9 @@ const Wrapper = styled.div`
   .picture_decor_right {
     position: absolute;
     top: 30px;
-    right: -6.2rem;
+    right: -2.4rem;
     transform: translateY(-50%);
+    object-fit: cover;
   }
   .tittle_h2 {
     color: ${p => p.theme.blue};

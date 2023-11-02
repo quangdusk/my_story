@@ -5,6 +5,9 @@ import { Card } from './Card';
 import { Invite } from './Invite';
 import { Information } from './Information';
 import { Family } from './Family';
+import { Picture } from './Picture';
+import { WeddingPicture } from './WeddingPicture';
+import { Celebrate } from './Celebrate';
 
 export function HomePage() {
   return (
@@ -16,14 +19,14 @@ export function HomePage() {
           content="A React Boilerplate application homepage"
         />
       </Helmet>
-      {/* <NavBar /> */}
       <PageWrapper>
         <Card />
         <Invite />
         <Information />
         <Family />
-        {/* <Masthead />
-        <Features /> */}
+        <Picture />
+        <WeddingPicture />
+        <Celebrate />
       </PageWrapper>
     </>
   );
