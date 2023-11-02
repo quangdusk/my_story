@@ -102,11 +102,21 @@ export const GlobalStyle = createGlobalStyle`
     .cardLeftImg, .cardRightImg {
       max-width: 170px;
     }
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
   }
 
   @media only screen and (max-width: 1160px) {
     .cardLeftImg, .cardRightImg {
       max-width: 150px;
+    }
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
 

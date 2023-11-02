@@ -1,22 +1,20 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import Info from 'images/info1.png';
-import {
-  HomeOutlined,
-  ScheduleOutlined,
-  HeartOutlined
-} from '@ant-design/icons';
-import { Row } from 'antd';
-import StoryDecor from 'images/story-decor.png';
+    VerticalTimeline,
+    VerticalTimelineElement,
+  } from 'react-vertical-timeline-component';
+  import 'react-vertical-timeline-component/style.min.css';
+  import {
+    HomeOutlined,
+    ScheduleOutlined,
+    HeartOutlined
+  } from '@ant-design/icons';
 
-export function CelebrateCenter() {
+export function Event() {
   return (
     <Wrapper>
+      <h1 className='tittle tittle_h1'>Sự kiện</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -116,28 +114,14 @@ export function CelebrateCenter() {
           icon={<HeartOutlined />}
         />
       </VerticalTimeline>
-      <Row className='story_decor' justify='space-around'>
-        <img src={StoryDecor} />
-      </Row>
-      
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  margin-top: 100px;
-  .date_background {
-    background-image: url(${Info});
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  max-width: 1290px;
+  margin: auto;
   .vertical-timeline-element-icon svg {
     position: absolute;
-  }
-  .story_decor {
-    padding-top: 30px;
   }
 `;

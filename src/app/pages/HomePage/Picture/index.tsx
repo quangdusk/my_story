@@ -33,6 +33,7 @@ const Wrapper = styled.div`
     padding: 10px;
     object-fit: cover;
     width: 100%;
+    max-height: 400px;
     height: 100%;
   }
   .story_decor {

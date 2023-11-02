@@ -8,6 +8,8 @@ import { Family } from './Family';
 import { Picture } from './Picture';
 import { WeddingPicture } from './WeddingPicture';
 import { Celebrate } from './Celebrate';
+import { GaleryImage } from '../GaleryImage';
+import { Event } from '../Event';
 
 export function HomePage() {
   return (
@@ -27,6 +29,8 @@ export function HomePage() {
         <Picture />
         <WeddingPicture />
         <Celebrate />
+        <GaleryImage />
+        <Event />
       </PageWrapper>
     </>
   );
