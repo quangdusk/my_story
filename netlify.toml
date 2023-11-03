@@ -10,8 +10,6 @@
 
   # Default build command.
   command = "yarn run build"
-  commandOrigin: config
-  publishOrigin: config
 
 # The following redirect is intended for use with most SPAs that handle routing internally.
 [[redirects]]
