@@ -4,12 +4,14 @@ import { Time } from './Time';
 import { Address } from './Address';
 
 export function InviteCenter() {
+  const queryParameters = new URLSearchParams(window.location.search);
+  var user = queryParameters.get('userId');
   return (
     <Wrapper>
       <h2 className='tittle_h2 tittle' style={{paddingTop: "100px"}}>Trân trọng kính mời</h2>
       {/* <h1 className='tittle_h1 tittle'>Bạn A cùng người thương</h1> */}
       <h3 className='tittle_h3 tittle'>tới dự hôn lễ của 2 vợ chồng vào hồi</h3>
-      <Time />
+      <Time user={user}/>
       <Address />
     </Wrapper>
   );

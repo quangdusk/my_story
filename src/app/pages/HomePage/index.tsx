@@ -10,6 +10,7 @@ import { WeddingPicture } from './WeddingPicture';
 import { Celebrate } from './Celebrate';
 import { GaleryImage } from '../GaleryImage';
 import { Event } from '../Event';
+import { MusicVideo } from './MusicVideo';
 
 export function HomePage() {
   return (
@@ -31,6 +32,7 @@ export function HomePage() {
         <Celebrate />
         <GaleryImage />
         <Event />
+        <MusicVideo />
       </PageWrapper>
     </>
   );

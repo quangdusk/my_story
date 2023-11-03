@@ -30,7 +30,7 @@ export function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="*" element={<HomePage />} />
       </Routes>
       <GlobalStyle />
     </BrowserRouter>
