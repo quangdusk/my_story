@@ -15,10 +15,10 @@ export function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Nguyễn Đắc Quang</title>
+        <title>QuangHongWedding</title>
         <meta
           name="description"
-          content="A React Boilerplate application homepage"
+          content="Đám cứoi của Quang và Hồng"
         />
       </Helmet>
       <PageWrapper>

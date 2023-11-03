@@ -24,5 +24,4 @@ export function Celebrate() {
 }
 
 const Wrapper = styled.div`
-  margin-top: 100px;
 `;

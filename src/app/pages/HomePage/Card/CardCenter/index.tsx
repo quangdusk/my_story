@@ -20,9 +20,10 @@ export function CardCenter() {
   );
 }
 const Wrapper = styled.div`
-  padding-top: 40px;
+  padding-top: 30px;
   max-width: 1000px;
   margin: auto;
+  max-height: 860px;
   img {
     width: 100%;
   }
@@ -30,7 +31,7 @@ const Wrapper = styled.div`
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-bottom: 48px;
+    margin-bottom: 28px;
     overflow-wrap: anywhere;
     font-size: 55px;
     font-family: Philosopher;
@@ -39,7 +40,9 @@ const Wrapper = styled.div`
   }
   .rotateLeft45 {
     max-width: 230px;
+    width: 20%;
     display: flex;
     margin: auto;
+    padding-top: 30px;
   }
 `;

@@ -121,6 +121,10 @@ export function Event() {
 const Wrapper = styled.div`
   max-width: 1290px;
   margin: auto;
+  .tittle_h1 {
+    font-size: 55px;
+    line-height: 62px;
+  }
   .vertical-timeline-element-icon svg {
     position: absolute;
   }

@@ -20,8 +20,8 @@ export function Family() {
         </Col>
         <Col span={8} xs={8} sm={8} md={8} lg={8}>
           <h3 className="p">Nhà gái</h3>
-          <h2 className="tittle">Nguyễn Đắc Toàn</h2>
-          <h2 className="tittle">Trịnh Thị Mai</h2>
+          <h2 className="tittle">Phạm Văn Tiện</h2>
+          <h2 className="tittle">Phan Thị Kim Huế</h2>
         </Col>
       </Row>
       <Row className='story_decor' justify='space-around'>

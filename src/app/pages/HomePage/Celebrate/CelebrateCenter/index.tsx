@@ -119,13 +119,12 @@ export function CelebrateCenter() {
       <Row className='story_decor' justify='space-around'>
         <img src={StoryDecor} />
       </Row>
-      
+
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  margin-top: 100px;
   .date_background {
     background-image: url(${Info});
     height: 100%;
