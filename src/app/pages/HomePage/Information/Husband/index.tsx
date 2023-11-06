@@ -23,12 +23,12 @@ export function Husband() {
         <Col span={12} xs={12} sm={12} md={12} lg={12}>
           <div className="text_profile">
             <h2 className="tittle_h2 tittle">Chú rể</h2>
-            <h1 className='font_calligraphy tittle_h1 tittle'>Nguyễn Đắc Quang</h1>
-            <p className='tittle'>
-              Mời chú rể giới thiệu về bản thân ở đây nha. Chú rể có thể trả lời
-              những câu hỏi cơ bản như tên đầy đủ là gì nè, bao tuổi rùi, nhà ở
-              đâu, sở thích, ưu điểm, khuyết điểm, ... Tất cả những gì mà chú rể
-              muốn chia sẻ về bản thân thì mời chú rể hãy chia sẻ ở đây nha ♥
+            <h1 className="font_calligraphy tittle_h1 tittle">
+              Nguyễn Đắc Quang
+            </h1>
+            <p className="tittle">
+              Chú rể hiện tại đang làm lập trình viên. Chú rể là người ít nói,
+              trưởng thành so với tuổi, biết nấu ăn và làm việc nhà.
             </p>
           </div>
         </Col>

@@ -1,113 +1,59 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import {
-    VerticalTimeline,
-    VerticalTimelineElement,
-  } from 'react-vertical-timeline-component';
-  import 'react-vertical-timeline-component/style.min.css';
-  import {
-    HomeOutlined,
-    ScheduleOutlined,
-    HeartOutlined
-  } from '@ant-design/icons';
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import { ScheduleOutlined, HeartOutlined } from '@ant-design/icons';
 
 export function Event() {
   return (
     <Wrapper>
-      <h1 className='tittle tittle_h1'>Sự kiện</h1>
+      <h1 className="tittle tittle_h1">Sự kiện</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#fff', color: '#000' }}
           contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-          date={`19.10.2022`}
+          date={`07:00 23.11.2023`}
           dateClassName={'date_background'}
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<HomeOutlined />}
+          icon={<ScheduleOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
+          <h3 className="vertical-timeline-element-title">Lễ ăn hỏi</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nhà gái</h4>
+          <p>Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="16:00 23.11.2023"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<ScheduleOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
+          <h3 className="vertical-timeline-element-title">Bữa cơm thân mật</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nhà gái</h4>
+          <p>Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="09:00 24.11.2023"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<ScheduleOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">Rước dâu</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nhà trai</h4>
+          <p>Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh Bắc Ninh</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="16:00 24.11.2023"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<ScheduleOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">Bữa cơm thân mật</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nhà trai</h4>
+          <p>Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh Bắc Ninh</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
@@ -120,6 +66,7 @@ export function Event() {
 
 const Wrapper = styled.div`
   max-width: 1290px;
+  padding-top: 50px;
   margin: auto;
   .tittle_h1 {
     font-size: 55px;

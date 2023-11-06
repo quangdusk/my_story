@@ -25,13 +25,13 @@ export function HomePage() {
       <PageWrapper>
         <Card />
         <Invite />
+        <Event />
         <Information />
         <Family />
         <Picture />
         <WeddingPicture />
         <Celebrate />
         <GaleryImage />
-        <Event />
         <MusicVideo />
       </PageWrapper>
     </>

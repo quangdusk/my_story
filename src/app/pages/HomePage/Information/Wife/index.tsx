@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
-import HusbandImage from 'images/info1.png';
+import WifeImage from 'images/Wife.jpeg';
 import FrameDecor2 from 'images/frame-decor-2.png';
 import FrameDecor3 from 'images/frame-decor-3.png';
 
@@ -17,11 +17,11 @@ export function Wife() {
                 Phạm Thị Hồng
               </h1>
               <p className="tittle">
-                Mời chú rể giới thiệu về bản thân ở đây nha. Chú rể có thể trả
-                lời những câu hỏi cơ bản như tên đầy đủ là gì nè, bao tuổi rùi,
-                nhà ở đâu, sở thích, ưu điểm, khuyết điểm, ... Tất cả những gì
-                mà chú rể muốn chia sẻ về bản thân thì mời chú rể hãy chia sẻ ở
-                đây nha ♥
+                Cô dâu tên là Hồng hay còn được biết đến với biện danh Dâu Tây.
+                Hiện tại đang làm hành chính nhân sự tổng hợp. Cô dâu là một cô
+                gái đáng yêu, vui vẻ, hay cười và có tình yêu đặc biệt với màu
+                hồng. Ngược lại với chú rể, cô dâu là người luôn thích nói
+                chuyện, chia sẻ với mọi người.
               </p>
             </div>
           </Row>
@@ -34,7 +34,7 @@ export function Wife() {
                 <img className="picture_decor_right" src={FrameDecor3} />
               </div>
               <div className="picture_profile_center">
-                <img src={HusbandImage} />
+                <img src={WifeImage} />
               </div>
             </div>
           </Row>
@@ -63,10 +63,11 @@ const Wrapper = styled.div`
     place-items: center;
     width: 100%;
     height: 100%;
+    position: relative;
   }
   .picture_profile_center img {
     object-fit: cover;
-    position: relative;
+    position: absolute;
     width: calc(100% - 50px);
     height: 100%;
     border-radius: 200px 200px 0 0;
