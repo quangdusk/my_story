@@ -23,7 +23,9 @@ export function Event() {
         >
           <h3 className="vertical-timeline-element-title">Lễ ăn hỏi</h3>
           <h4 className="vertical-timeline-element-subtitle">Nhà gái</h4>
-          <p>Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội</p>
+          <p>
+            Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -33,7 +35,9 @@ export function Event() {
         >
           <h3 className="vertical-timeline-element-title">Bữa cơm thân mật</h3>
           <h4 className="vertical-timeline-element-subtitle">Nhà gái</h4>
-          <p>Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội</p>
+          <p>
+            Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -42,8 +46,11 @@ export function Event() {
           icon={<ScheduleOutlined />}
         >
           <h3 className="vertical-timeline-element-title">Rước dâu</h3>
-          <h4 className="vertical-timeline-element-subtitle">Nhà trai</h4>
-          <p>Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh Bắc Ninh</p>
+          <h4 className="vertical-timeline-element-subtitle"></h4>
+          <p>
+            Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh
+            Bắc Ninh
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -53,7 +60,10 @@ export function Event() {
         >
           <h3 className="vertical-timeline-element-title">Bữa cơm thân mật</h3>
           <h4 className="vertical-timeline-element-subtitle">Nhà trai</h4>
-          <p>Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh Bắc Ninh</p>
+          <p>
+            Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh
+            Bắc Ninh
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}

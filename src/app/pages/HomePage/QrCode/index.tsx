@@ -6,21 +6,45 @@ import Donate3 from 'images/donate3.png';
 export function QrCode() {
   return (
     <Wrapper>
-      <Row className="qr_code" justify="space-around" align="middle">
-        <img src={Donate3} />
-      </Row>
+      <ul>
+        <li><img src={Donate3} /></li>
+      </ul>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
   margin-top: 100px;
-  .qr_code {
+  ul {
+    margin: 0;
+    padding: 0;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    right: 30px;
+    bottom: 30px;
+  }
+  
+  ul li {
+    background-color: red;
+    list-style: none;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    z-index: 10000;
-    background: ${p => p.theme.orange};
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    animation: animate 7s linear infinite;
+    /* transform-origin: bottom center; */
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(359deg);
+    }
+  }
+
+  ul li:nth-child(1) {
+    animation-delay: 0s;
   }
 `;
