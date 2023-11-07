@@ -8,7 +8,8 @@ const lightTheme = {
   borderLight: 'rgba(58,52,51,0.05)',
   yellow: '#d89a45',
   blue: '#03355C',
-  pink: '#f8576f'
+  pink: '#f8576f',
+  orange: '#F3C584'
 };
 
 const darkTheme: Theme = {
@@ -21,7 +22,8 @@ const darkTheme: Theme = {
   borderLight: 'rgba(241,233,231,0.05)',
   yellow: '#d89a45',
   blue: '#03355C',
-  pink: '#f8576f'
+  pink: '#f8576f',
+  orange: '#F3C584'
 };
 
 export type Theme = typeof lightTheme;

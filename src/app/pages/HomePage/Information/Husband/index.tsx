@@ -27,7 +27,7 @@ export function Husband() {
               Nguyễn Đắc Quang
             </h1>
             <p className="tittle">
-              Chú rể là chồng của Dâu Tây.
+              Chú rể là chồng của Dâu Tây và là 1 Lập trình viên.
             </p>
           </div>
         </Col>

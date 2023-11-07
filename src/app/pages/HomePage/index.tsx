@@ -11,6 +11,7 @@ import { Celebrate } from './Celebrate';
 import { GaleryImage } from '../GaleryImage';
 import { Event } from '../Event';
 import { MusicVideo } from './MusicVideo';
+import { QrCode } from './QrCode';
 
 export function HomePage() {
   return (
@@ -19,7 +20,7 @@ export function HomePage() {
         <title>QuangHongWedding</title>
         <meta
           name="description"
-          content="Đám cứoi của Quang và Hồng"
+          content="Đám cưới của Quang và Hồng"
         />
       </Helmet>
       <PageWrapper>
@@ -29,10 +30,11 @@ export function HomePage() {
         <Information />
         <Family />
         <Picture />
-        <WeddingPicture />
+        {/* <WeddingPicture /> */}
         <Celebrate />
         <GaleryImage />
         <MusicVideo />
+        <QrCode />
       </PageWrapper>
     </>
   );
