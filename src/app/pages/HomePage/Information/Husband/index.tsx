@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
-import HusbandImage from 'images/info1.png';
+import HusbandImage from 'images/Husband.jpeg';
 import FrameDecor1 from 'images/framde-decor-1.png';
 import FrameDecor2 from 'images/frame-decor-2.png';
 
@@ -27,8 +27,7 @@ export function Husband() {
               Nguyễn Đắc Quang
             </h1>
             <p className="tittle">
-              Chú rể hiện tại đang làm lập trình viên. Chú rể là người ít nói,
-              trưởng thành so với tuổi, biết nấu ăn và làm việc nhà.
+              Chú rể là chồng của Dâu Tây.
             </p>
           </div>
         </Col>

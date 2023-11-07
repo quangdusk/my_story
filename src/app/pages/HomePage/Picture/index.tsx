@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
-import Info1 from 'images/info1.png';
+import Husband from 'images/Husband.jpeg';
 import StoryDecor from 'images/story-decor.png';
 
 export function Picture() {
@@ -9,13 +9,13 @@ export function Picture() {
     <Wrapper>
       <Row className='picture'>
         <Col span={9} xs={9} sm={9} md={9} lg={9}>
-          <img src={Info1} />
+          <img src={Husband} />
         </Col>
         <Col span={6} xs={6} sm={6} md={6} lg={6}>
-          <img src={Info1} />
+          <img src={Husband} />
         </Col>
         <Col span={9} xs={9} sm={9} md={9} lg={9}>
-          <img src={Info1} />
+          <img src={Husband} />
         </Col>
       </Row>
       <Row className="story_decor" justify="space-around">

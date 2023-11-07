@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Info from 'images/info1.png';
+import Husband from 'images/Husband.jpeg';
 import {
   HomeOutlined,
   ScheduleOutlined,
@@ -13,6 +13,7 @@ import {
 } from '@ant-design/icons';
 import { Row } from 'antd';
 import StoryDecor from 'images/story-decor.png';
+import WifeBirthday from 'images/WifeBirthday.jpeg';
 
 export function CelebrateCenter() {
   return (
@@ -22,16 +23,14 @@ export function CelebrateCenter() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#fff', color: '#000' }}
           contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-          date={`19.10.2022`}
+          date={``}
           dateClassName={'date_background'}
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<HomeOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">08.11.2022</h3>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            Sau thời gian quen nhau thì đây là lần đầu mình tổ chức sinh nhật cho bạn ấy nè
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -126,7 +125,7 @@ export function CelebrateCenter() {
 
 const Wrapper = styled.div`
   .date_background {
-    background-image: url(${Info});
+    background-image: url(${WifeBirthday});
     height: 100%;
     width: 100%;
     background-position: center;

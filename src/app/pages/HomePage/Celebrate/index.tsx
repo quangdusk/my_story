@@ -8,6 +8,9 @@ import { CelebrateRight } from './CelebrateRight';
 export function Celebrate() {
   return (
     <Wrapper>
+      <Row justify="center">
+        <h1 className="tittle tittle_h1 font_calligraphy">Kỉ niệm</h1>
+      </Row>
       <Row>
         <Col span={4} xs={4} sm={4} md={4} lg={4}>
           <CelebrateLeft />
@@ -24,4 +27,7 @@ export function Celebrate() {
 }
 
 const Wrapper = styled.div`
+  .tittle.tittle_h1 {
+    margin-top: 0px;
+  }
 `;

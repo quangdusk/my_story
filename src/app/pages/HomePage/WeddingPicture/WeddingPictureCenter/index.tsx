@@ -5,8 +5,17 @@ import { Col, Row } from 'antd';
 export function WeddingPictureCenter() {
   return (
     <Wrapper>
-      <h1 className='tittle tittle_h1 font_calligraphy'>Ảnh ngày cưới</h1>
-      <p className='tittle p'>Dưới đây là một số ảnh ngày cưới, bạn có thể xem cùng chúng mình <a>tại đây</a> nha ♥</p>
+      <h1 className="tittle tittle_h1 font_calligraphy">Ảnh ngày cưới</h1>
+      <p className="tittle p">
+        Dưới đây là một số ảnh ngày cưới, bạn có thể xem cùng chúng mình{' '}
+        <a
+          href="https://drive.google.com/drive/folders/1R5gYzXFtzN_LLaF81DvVbIwoNiK7uTAR?fbclid=IwAR0wERy3pj1LEewfGyoyxICbN7XiWS82zpA-xMc83ZJP-hygbYw0io77-cw"
+          target="blank"
+        >
+          tại đây
+        </a>{' '}
+        nha ♥
+      </p>
     </Wrapper>
   );
 }
