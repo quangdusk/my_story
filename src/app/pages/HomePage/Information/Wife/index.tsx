@@ -17,7 +17,7 @@ export function Wife() {
                 Phạm Thị Hồng
               </h1>
               <p className="tittle">
-                Cô dâu tên là Hồng hay còn được biết đến với biện danh Dâu Tây.
+                Cô dâu tên là Hồng hay còn được biết đến với biệt danh Dâu Tây.
                 Hiện tại đang làm hành chính nhân sự tổng hợp. Cô dâu là một cô
                 gái đáng yêu, vui vẻ, hay cười và có tình yêu đặc biệt với màu
                 hồng. Ngược lại với chú rể, cô dâu là người luôn thích nói

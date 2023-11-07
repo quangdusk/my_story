@@ -5,15 +5,20 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import Husband from 'images/Husband.jpeg';
 import {
-  HomeOutlined,
-  ScheduleOutlined,
   HeartOutlined
 } from '@ant-design/icons';
 import { Row } from 'antd';
 import StoryDecor from 'images/story-decor.png';
 import WifeBirthday from 'images/WifeBirthday.jpeg';
+import FirstDate from 'images/Date.jpeg';
+import Noel from 'images/Noel.jpeg';
+import CongVien from 'images/CongVien.jpeg';
+import HaiVan from 'images/HaiVan.jpeg';
+import Pagoda from 'images/Pagoda.jpeg';
+import Cinema from 'images/Cinema.jpeg';
+import Beach from 'images/Beach.jpeg';
+import CauHon from 'images/CauHon.jpeg';
 
 export function CelebrateCenter() {
   return (
@@ -25,90 +30,106 @@ export function CelebrateCenter() {
           contentArrowStyle={{ borderRight: '7px solid  #fff' }}
           date={``}
           dateClassName={'date_background'}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<HomeOutlined />}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
           <h3 className="vertical-timeline-element-title">08.11.2022</h3>
           <p>
-            Sau thời gian quen nhau thì đây là lần đầu mình tổ chức sinh nhật cho bạn ấy nè
+            Lần đầu tổ chức sinh nhật bất ngờ cho em
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
+          date=""
+          dateClassName={'first_date'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
+          <h3 className="vertical-timeline-element-title">24.11.2022</h3>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+          Lần đầu chúng mình đi cafe và nắm tay nhau
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
+          date=""
+          dateClassName={'noel'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">16.12.2022</h3>
+          <p>Giáng sinh đầu tiên bên nhau </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
+          date=""
+          dateClassName={'park'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>User Experience, Visual Design</p>
+          <h3 className="vertical-timeline-element-title">07.01.2023</h3>
+
+          <p>Công viên Thống Nhất - nơi đầy ắp kỉ niệm</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
+          date=""
+          dateClassName={'hai_van'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
           <h3 className="vertical-timeline-element-title">
-            Content Marketing for Web, Mobile and Social Media
+            12.01.2023
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-          <p>Strategy, Social Media</p>
+          <p>Hải Vân: nơi chúng mình gặp nhau, rồi yêu nhau. Kỷ niệm lần đầu hỗ trợ bạn ý setup sự kiện Year and party ở Hải Vân. Công việc mà bạn ý yêu thích</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
+          date=""
+          dateClassName={'pagoda'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
           <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
+            22.01.2023
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>Creative Direction, User Experience, Visual Design</p>
+          <p>Tết đầu tiên bên nhau. Cũng xúng xính váy áo rủ nhau đi chùa thắp hương cầu may mắn, bình an</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2002 - 2006"
-          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-          icon={<ScheduleOutlined />}
+          date=""
+          dateClassName={'cinema'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
         >
           <h3 className="vertical-timeline-element-title">
-            Bachelor of Science in Interactive Digital Media Visual Imaging
+            27.01.2023
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor Degree
-          </h4>
-          <p>Creative Direction, Visual Design</p>
+          <p>Kỷ niệm lần đầu đi xem phim với nhau. Hôm ý chúng mình đi xem phim Nhà Bà Nữ do Trấn Thành làm đạo diễn. Bạn Dâu Tây hôm ý mít ướt dữ lắm nhưng phim thật sự cũng rất hay và ý nghĩa</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date=""
+          dateClassName={'beach'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            26.06.2023
+          </h3>
+          <p>Hạ Long đón chúng mình bằng cơn mưa trắng xóa cả biển, nhưng kết thúc lại là 1 ngày nắng đẹp và có cả Cầu Vồng.</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date=""
+          dateClassName={'cau_hon'}
+          iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
+          icon={<HeartOutlined />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            26.10.2023
+          </h3>
+          <p>Mình cầu hôn bạn Dâu Tây bất ngờ đó, tại chính quán cafe lần đầu chúng mình đi với nhau. Và bạn ý đã SAY YESSSSS!</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
@@ -118,7 +139,6 @@ export function CelebrateCenter() {
       <Row className='story_decor' justify='space-around'>
         <img src={StoryDecor} />
       </Row>
-
     </Wrapper>
   );
 }
@@ -129,7 +149,71 @@ const Wrapper = styled.div`
     height: 100%;
     width: 100%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .first_date {
+    background-image: url(${FirstDate});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .noel {
+    background-image: url(${Noel});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .park {
+    background-image: url(${CongVien});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .hai_van {
+    background-image: url(${HaiVan});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .pagoda {
+    background-image: url(${Pagoda});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .cinema {
+    background-image: url(${Cinema});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .beach {
+    background-image: url(${Beach});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .cau_hon {
+    background-image: url(${CauHon});
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
   }
   .vertical-timeline-element-icon svg {
