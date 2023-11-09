@@ -1,43 +1,52 @@
-import * as React from 'react';
+import { Col, Row } from 'antd';
 import styled from 'styled-components/macro';
 
 export function Time(user) {
   return (
     <Wrapper>
-      <div>
-        <h2 className="tittle_h2 tittle">Thời gian</h2>
-        <h2 className="tittle_h2 tittle">{user.user == 1 ? '15:00' : '09:00'}</h2>
-      </div>
-      <div>
-        <h2 className="tittle_h2 tittle">Thứ</h2>
-        <h2 className="tittle_h2 tittle">{user.user == 1 ? '06' : '05'}</h2>
-      </div>
-      <div>
-        <h2 className="tittle_h2 tittle">Tháng</h2>
-        <h2 className="tittle_h2 tittle">12.2023</h2>
-      </div>
+      <Row justify="center" align="middle">
+        <Col span={8} xs={18} sm={18} md={18} lg={8}>
+          <h2 className="tittle_h2 tittle">Thời gian</h2>
+          <h2 className="tittle_h2 tittle">
+            {user.user == 1 ? '15:00' : '09:00'}
+          </h2>
+        </Col>
+        <Col className="border" span={8} xs={18} sm={18} md={18} lg={8}>
+          <h2 className="tittle_h2 tittle">Thứ</h2>
+          <h2 className="tittle_h2 tittle upper">
+            {user.user == 1 ? '06' : '05'}
+          </h2>
+        </Col>
+        <Col span={8} xs={18} sm={18} md={18} lg={8}>
+          <h2 className="tittle_h2 tittle">Tháng</h2>
+          <h2 className="tittle_h2 tittle">12.2023</h2>
+        </Col>
+      </Row>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  div {
-    margin-top: 40px;
-    width: 300px;
-    text-align: center;
+  .border {
     border-right: 1px solid ${p => p.theme.text};
+    border-left: 1px solid ${p => p.theme.text};
+  }
+  .upper {
+    font-size: 100px;
+  }
+  @media only screen and (max-width: 672px) {
+    .border {
+      border-bottom: 1px solid ${p => p.theme.text};
+      border-top: 1px solid ${p => p.theme.text};
+      border-right: none;
+      border-left: none;
+    }
+    .upper {
+      font-size: 50px !important;
+    }
   }
   .tittle_h2 {
     margin: 0 !important;
     padding: 0;
-  }
-  div:nth-child(3) {
-    border-right: none;
-  }
-  div:nth-child(2) .tittle_h2:nth-child(2) {
-    font-size: 100px;
-    line-height: 102px;
   }
 `;

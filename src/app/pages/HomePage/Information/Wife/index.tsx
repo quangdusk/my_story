@@ -9,7 +9,7 @@ export function Wife() {
   return (
     <Wrapper>
       <Row justify="space-between">
-        <Col span={12} xs={24} sm={24} md={24} lg={12}>
+        <Col span={12} xs={24} sm={24} lg={12} md={22}>
           <Row justify="space-around" align="middle" style={{ height: '100%' }}>
             <div className="text_profile">
               <h2 className="tittle_h2 tittle">Cô dâu</h2>
@@ -26,7 +26,7 @@ export function Wife() {
             </div>
           </Row>
         </Col>
-        <Col span={12} xs={24} sm={24} md={24} lg={12}>
+        <Col span={12} xs={22} sm={22} lg={12} md={22}>
           <Row justify="end">
             <div className="picture_profile">
               <div className="picture_decor">
@@ -106,5 +106,16 @@ const Wrapper = styled.div`
     font-weight: 500;
     font-size: 85px;
     margin: 0px;
+  }
+  @media only screen and (max-width: 672px) {
+    .tittle_h2.tittle {
+      font-size: 20px !important;
+    }
+    .tittle_h1.tittle {
+      font-size: 40px !important;
+    }
+    p {
+      font-size: 16px;
+    }
   }
 `;

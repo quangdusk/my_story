@@ -20,4 +20,5 @@ const Wrapper = styled.div`
   margin: auto;
   margin-top: 50px;
   padding-bottom: 100px;
+  padding: 12px;
 `;

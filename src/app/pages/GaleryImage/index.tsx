@@ -1,37 +1,59 @@
-import { Row } from 'antd';
+import { Col, Row } from 'antd';
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import StoryDecor from 'images/story-decor.png';
+import DSC1206 from 'images/DSC_1206.jpg';
+import DSC1237 from 'images/DSC_1237.jpg';
+import DSC1308 from 'images/DSC_1308.jpg';
+import DSC1346 from 'images/DSC_1346.jpg';
+import DSC1425 from 'images/DSC_1425.jpg';
+import DSC1510 from 'images/DSC_1510.jpg';
+import DSC1562 from 'images/DSC_1562.jpg';
+import DSC1574 from 'images/DSC_1574.jpg';
+import DSC1600 from 'images/DSC_1600.jpg';
+import DSC1603 from 'images/DSC_1603.jpg';
+import DSC1607 from 'images/DSC_1607.jpg';
+import DSC1628 from 'images/DSC_1628.jpg';
+import DSC1638 from 'images/DSC_1638.jpg';
+import DSC1738 from 'images/DSC_1738.jpg';
+import DSC1750 from 'images/DSC_1750.jpg';
+import DSC1771 from 'images/DSC_1771.jpg';
+import DSC1777 from 'images/DSC_1777.jpg';
+import DSC1803 from 'images/DSC_1803.jpg';
 
 export function GaleryImage() {
   return (
     <Wrapper>
       <div className="row">
         <div className="column">
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/rocks.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/rocks.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
+          <img src={DSC1206} />
+          <img src={DSC1237} />
+          <img src={DSC1308} />
+          <img src={DSC1346} />
+          <img src={DSC1425} />
+          <img src={DSC1510} />
         </div>
         <div className="column">
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/rocks.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
+          <img src={DSC1562} />
+          <img src={DSC1574} />
+          <img src={DSC1600} />
+          <img src={DSC1603} />
+          <img src={DSC1607} />
+          <img src={DSC1628} />
         </div>
         <div className="column">
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/rocks.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
-          <img src="https://www.w3schools.com/w3images/nature.jpg" />
+          <img src={DSC1638} />
+          <img src={DSC1738} />
+          <img src={DSC1750} />
+          <img src={DSC1771} />
+          <img src={DSC1777} />
+          <img src={DSC1803} />
         </div>
       </div>
-      <Row className="story_decor" justify="space-around">
-        <img className="rotate" src={StoryDecor} />
+      <Row className="story_decor" justify="space-around" align="middle">
+        <Col span={12} xs={12} sm={12} md={12} lg={12}>
+          <img className="rotate" src={StoryDecor} />
+        </Col>
       </Row>
     </Wrapper>
   );
@@ -42,7 +64,7 @@ const Wrapper = styled.div`
   margin: auto;
   margin-top: 50px;
   .row {
-    display: -ms-flexbox; 
+    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -51,6 +73,10 @@ const Wrapper = styled.div`
 
   .story_decor {
     margin-top: 90px;
+  }
+
+  .story_decor img {
+    width: 100%;
   }
 
   .column {

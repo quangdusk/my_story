@@ -5,10 +5,8 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {
-  HeartOutlined
-} from '@ant-design/icons';
-import { Row } from 'antd';
+import { HeartOutlined } from '@ant-design/icons';
+import { Col, Row } from 'antd';
 import StoryDecor from 'images/story-decor.png';
 import WifeBirthday from 'images/WifeBirthday.jpeg';
 import FirstDate from 'images/Date.jpeg';
@@ -34,9 +32,7 @@ export function CelebrateCenter() {
           icon={<HeartOutlined />}
         >
           <h3 className="vertical-timeline-element-title">08.11.2022</h3>
-          <p>
-            Lần đầu tổ chức sinh nhật bất ngờ cho em
-          </p>
+          <p>Lần đầu tổ chức sinh nhật bất ngờ cho em</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -46,9 +42,7 @@ export function CelebrateCenter() {
           icon={<HeartOutlined />}
         >
           <h3 className="vertical-timeline-element-title">24.11.2022</h3>
-          <p>
-          Lần đầu chúng mình đi cafe và nắm tay nhau
-          </p>
+          <p>Lần đầu chúng mình đi cafe và nắm tay nhau</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -78,10 +72,12 @@ export function CelebrateCenter() {
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
           icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">
-            12.01.2023
-          </h3>
-          <p>Hải Vân: nơi chúng mình gặp nhau, rồi yêu nhau. Kỷ niệm lần đầu hỗ trợ bạn ý setup sự kiện Year and party ở Hải Vân. Công việc mà bạn ý yêu thích</p>
+          <h3 className="vertical-timeline-element-title">12.01.2023</h3>
+          <p>
+            Hải Vân: nơi chúng mình gặp nhau, rồi yêu nhau. Kỷ niệm lần đầu hỗ
+            trợ bạn ý setup sự kiện Year and party ở Hải Vân. Công việc mà bạn ý
+            yêu thích
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -90,10 +86,11 @@ export function CelebrateCenter() {
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
           icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">
-            22.01.2023
-          </h3>
-          <p>Tết đầu tiên bên nhau. Cũng xúng xính váy áo rủ nhau đi chùa thắp hương cầu may mắn, bình an</p>
+          <h3 className="vertical-timeline-element-title">22.01.2023</h3>
+          <p>
+            Tết đầu tiên bên nhau. Cũng xúng xính váy áo rủ nhau đi chùa thắp
+            hương cầu may mắn, bình an
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -102,10 +99,12 @@ export function CelebrateCenter() {
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
           icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">
-            27.01.2023
-          </h3>
-          <p>Kỷ niệm lần đầu đi xem phim với nhau. Hôm ý chúng mình đi xem phim Nhà Bà Nữ do Trấn Thành làm đạo diễn. Bạn Dâu Tây hôm ý mít ướt dữ lắm nhưng phim thật sự cũng rất hay và ý nghĩa</p>
+          <h3 className="vertical-timeline-element-title">27.01.2023</h3>
+          <p>
+            Kỷ niệm lần đầu đi xem phim với nhau. Hôm ý chúng mình đi xem phim
+            Nhà Bà Nữ do Trấn Thành làm đạo diễn. Bạn Dâu Tây hôm ý mít ướt dữ
+            lắm nhưng phim thật sự cũng rất hay và ý nghĩa
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -114,10 +113,11 @@ export function CelebrateCenter() {
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
           icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">
-            26.06.2023
-          </h3>
-          <p>Hạ Long đón chúng mình bằng cơn mưa trắng xóa cả biển, nhưng kết thúc lại là 1 ngày nắng đẹp và có cả Cầu Vồng.</p>
+          <h3 className="vertical-timeline-element-title">26.06.2023</h3>
+          <p>
+            Hạ Long đón chúng mình bằng cơn mưa trắng xóa cả biển, nhưng kết
+            thúc lại là 1 ngày nắng đẹp và có cả Cầu Vồng.
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -126,18 +126,21 @@ export function CelebrateCenter() {
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
           icon={<HeartOutlined />}
         >
-          <h3 className="vertical-timeline-element-title">
-            26.10.2023
-          </h3>
-          <p>Mình cầu hôn bạn Dâu Tây bất ngờ đó, tại chính quán cafe lần đầu chúng mình đi với nhau. Và bạn ý đã SAY YESSSSS!</p>
+          <h3 className="vertical-timeline-element-title">26.10.2023</h3>
+          <p>
+            Mình cầu hôn bạn Dâu Tây bất ngờ đó, tại chính quán cafe lần đầu
+            chúng mình đi với nhau. Và bạn ý đã SAY YESSSSS!
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(247, 4, 65)', color: '#fff' }}
           icon={<HeartOutlined />}
         />
       </VerticalTimeline>
-      <Row className='story_decor' justify='space-around'>
-        <img src={StoryDecor} />
+      <Row className="story_decor" justify="space-around" align="middle">
+        <Col span={12} xs={12} sm={12} md={12} lg={12}>
+          <img src={StoryDecor} />
+        </Col>
       </Row>
     </Wrapper>
   );
@@ -221,5 +224,8 @@ const Wrapper = styled.div`
   }
   .story_decor {
     padding-top: 30px;
+  }
+  .story_decor img {
+    width: 100%;
   }
 `;

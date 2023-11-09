@@ -14,8 +14,8 @@ export function Family() {
           <h2 className="tittle">Trịnh Thị Mai</h2>
         </Col>
         <Col span={8} xs={24} sm={24} md={24} lg={8}>
-          <Row justify="space-around" align="middle" style={{height: '100%'}}>
-              <img className="ring" src={Ring} />
+          <Row justify="space-around" align="middle" style={{ height: '100%' }}>
+            <img className="ring" src={Ring} />
           </Row>
         </Col>
         <Col span={8} xs={24} sm={24} md={24} lg={8}>
@@ -24,8 +24,10 @@ export function Family() {
           <h2 className="tittle">Phan Thị Kim Huế</h2>
         </Col>
       </Row>
-      <Row className='story_decor' justify='space-around'>
-        <img src={StoryDecor} />
+      <Row className="story_decor" justify="space-around" align="middle">
+        <Col span={12} xs={12} sm={12} md={12} lg={12}>
+          <img src={StoryDecor} style={{width: "100%"}} />
+        </Col>
       </Row>
     </Wrapper>
   );

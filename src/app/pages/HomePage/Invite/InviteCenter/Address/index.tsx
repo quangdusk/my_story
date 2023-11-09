@@ -26,7 +26,7 @@ export function Address() {
             <div className={`flip-card-front ${click && 'is-flipped'}`}>
               <img src={BoyLove} onClick={hanhdleChangeAddress} />
               <h3 className={`tittle_h3 tittle`}>
-                Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, Thị xã Thuận Thành, Tỉnh Bắc Ninh
+                Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, TX.Thuận Thành, Tỉnh Bắc Ninh
                 <a
                   target="blank"
                   href="https://maps.app.goo.gl/imDdfN7CTgGbeXzh8"
