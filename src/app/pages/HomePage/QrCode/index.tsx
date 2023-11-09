@@ -7,6 +7,7 @@ import VBL from 'images/v-l.png';
 import VBR from 'images/v-r.png';
 import VB from 'images/v-b.png';
 import Heart from 'images/heart.png';
+import QrCodeImage from 'images/qr_code.jpeg';
 
 export function QrCode() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -47,13 +48,7 @@ export function QrCode() {
         width={210}
         closeIcon={false}
       >
-        <QRCode
-          errorLevel="H"
-          size={160}
-          iconSize={160 / 4}
-          value="https://ant.design/"
-          icon="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
-        />
+        <img src={QrCodeImage} style={{width: "100%"}} />
       </Modal>
     </Wrapper>
   );

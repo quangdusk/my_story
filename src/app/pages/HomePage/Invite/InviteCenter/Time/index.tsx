@@ -10,7 +10,7 @@ export function Time(user) {
       </div>
       <div>
         <h2 className="tittle_h2 tittle">Thứ</h2>
-        <h2 className="tittle_h2 tittle">{user.user == 1 ? '07' : '06'}</h2>
+        <h2 className="tittle_h2 tittle">{user.user == 1 ? '06' : '05'}</h2>
       </div>
       <div>
         <h2 className="tittle_h2 tittle">Tháng</h2>
