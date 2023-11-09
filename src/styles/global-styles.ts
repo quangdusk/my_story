@@ -116,7 +116,7 @@ export const GlobalStyle = createGlobalStyle`
       padding: 50px 0px;
     }
     .rotateLeft45 {
-      width: 80% !important;
+      width: 60% !important;
     }
   }
 

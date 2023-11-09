@@ -42,4 +42,12 @@ const Wrapper = styled.div`
     max-width: 500px;
     margin-top: 30px;
   }
+  @media only screen and (max-width: 672px) {
+    .tittle_h2, .tittle_h3 {
+      font-size: 20px;
+    }
+    .tittle_h1 {
+      font-size: 30px;
+    }
+  }
 `;

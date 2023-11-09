@@ -9,7 +9,7 @@ export function Husband() {
   return (
     <Wrapper>
       <Row>
-        <Col span={12} xs={12} sm={12} md={12} lg={12}>
+        <Col span={12} xs={24} sm={24} md={24} lg={12}>
           <div className="picture_profile">
             <div className="picture_decor">
               <img className="picture_decor_left" src={FrameDecor1} />
@@ -20,7 +20,7 @@ export function Husband() {
             </div>
           </div>
         </Col>
-        <Col span={12} xs={12} sm={12} md={12} lg={12}>
+        <Col span={12} xs={24} sm={24} md={24} lg={12}>
           <div className="text_profile">
             <h2 className="tittle_h2 tittle">Chú rể</h2>
             <h1 className="font_calligraphy tittle_h1 tittle">
