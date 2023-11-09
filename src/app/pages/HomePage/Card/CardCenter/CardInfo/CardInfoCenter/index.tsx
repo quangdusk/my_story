@@ -5,7 +5,7 @@ import And from 'images/and.png';
 export function CardInfoCenter() {
   return (
     <Wrapper>
-      <img src={And} />
+      <img className='and' src={And} />
     </Wrapper>
   );
 }

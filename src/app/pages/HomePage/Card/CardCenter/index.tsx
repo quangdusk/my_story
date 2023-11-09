@@ -15,7 +15,7 @@ export function CardCenter() {
       <img src={Bowtie} className="rotate" />
       <div className="dot"></div>
       <CardInfoFooter />
-      <img className='rotateLeft45' src={FrameDecor} alt="" />
+      <img className="rotateLeft45" src={FrameDecor} alt="" />
     </Wrapper>
   );
 }

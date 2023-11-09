@@ -17,4 +17,10 @@ const Wrapper = styled.div`
     font-weight: normal;
     padding-top: 8px;
   }
+  @media only screen and (max-width: 672px) {
+    .card_info_tittle {
+      text-align: center !important;
+      font-size: 25px;
+    }
+  }
 `;

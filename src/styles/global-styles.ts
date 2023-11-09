@@ -100,18 +100,29 @@ export const GlobalStyle = createGlobalStyle`
 
   @media only screen and (max-width: 672px) {
     .cardLeftImg, .cardRightImg {
-      max-width: 170px;
+      max-width: 170px !important;
     }
     .column {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
     }
+    .card_info_tittle {
+      text-align: center !important;
+      font-size: 55px;
+    }
+    .and {
+      width: 46px !important;
+      padding: 50px 0px;
+    }
+    .rotateLeft45 {
+      width: 80% !important;
+    }
   }
 
   @media only screen and (max-width: 1160px) {
     .cardLeftImg, .cardRightImg {
-      max-width: 150px;
+      max-width: 150px !important;
     }
     .column {
       -ms-flex: 50%;

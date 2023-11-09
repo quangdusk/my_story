@@ -9,31 +9,13 @@ export function CardInfo() {
   return (
     <Wrapper>
       <Row>
-        <Col
-          span={10}
-          xs={{ order: 1 }}
-          sm={{ order: 2 }}
-          md={{ order: 3 }}
-          lg={{ order: 4 }}
-        >
+        <Col span={10} xs={24} sm={24} md={24} lg={10}>
           <CardInfoLeft />
         </Col>
-        <Col
-          span={4}
-          xs={{ order: 1 }}
-          sm={{ order: 2 }}
-          md={{ order: 3 }}
-          lg={{ order: 4 }}
-        >
+        <Col span={4} xs={24} sm={24} md={24} lg={4}>
           <CardInfoCenter />
         </Col>
-        <Col
-          span={10}
-          xs={{ order: 1 }}
-          sm={{ order: 2 }}
-          md={{ order: 3 }}
-          lg={{ order: 4 }}
-        >
+        <Col span={10} xs={24} sm={24} md={24} lg={10}>
           <CardInfoRight />
         </Col>
       </Row>
