@@ -6,6 +6,7 @@ import VBa from 'images/v-ba.png';
 import VBL from 'images/v-l.png';
 import VBR from 'images/v-r.png';
 import VB from 'images/v-b.png';
+import Heart from 'images/heart.png';
 
 export function QrCode() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,15 +32,20 @@ export function QrCode() {
             <img className="letter_left" src={VBL} />
             <img className="letter_right" src={VBR} />
             <img className="letter_top" src={VB} />
+            <img className="letter_bottom" src={VB} />
+            <img className="letter_in" src={Heart} />
           </div>
         </div>
       </div>
 
       <Modal
         // title="Basic Modal"
+        centered
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
+        width={210}
+        closeIcon={false}
       >
         <QRCode
           errorLevel="H"
@@ -61,7 +67,9 @@ const Wrapper = styled.div`
     position: fixed;
     right: 30px;
     bottom: 30px;
+    z-index: 10;
   }
+
   .letter {
     position: absolute;
     top: 38%;
@@ -73,17 +81,46 @@ const Wrapper = styled.div`
 
   .letter_left {
     position: absolute;
+    z-index: 11;
     left: 0;
   }
   .letter_right {
     position: absolute;
+    z-index: 11;
     left: 48%;
+  }
+
+  .letter_in {
+    position: absolute;
+    z-index: 9;
+    left: 5px;
+  }
+
+  .letter_image:hover .letter_top {
+    transform: rotateY(180deg);
+    top: -18px;
+    z-index: 9;
+    transform-style: preserve-3d;
+  }
+
+  .letter_image:hover .letter_in {
+    animation: open 0.2s linear;
+    top: -6px;
+    z-index: 10;
   }
 
   .letter_top {
     position: absolute;
+    z-index: 10;
     transform: rotate(180deg);
     left: 0;
+  }
+
+  .letter_bottom {
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    bottom: 0;
   }
 
   ul li {
@@ -98,6 +135,26 @@ const Wrapper = styled.div`
 
     100% {
       transform: rotate(359deg);
+    }
+  }
+
+  @keyframes open {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes close {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
     }
   }
 
