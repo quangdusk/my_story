@@ -9,7 +9,7 @@ export function Husband() {
   return (
     <Wrapper>
       <Row>
-        <Col span={12} xs={24} sm={24} md={24} lg={12}>
+        <Col span={12} xs={22} sm={22} md={22} lg={12}>
           <div className="picture_profile">
             <div className="picture_decor">
               <img className="picture_decor_left" src={FrameDecor1} />
@@ -97,5 +97,19 @@ const Wrapper = styled.div`
     font-weight: 500;
     font-size: 85px;
     margin: 0px;
+  }
+  @media only screen and (max-width: 672px) {
+    .tittle_h2.tittle {
+      font-size: 20px !important;
+    }
+    .tittle_h1.tittle {
+      font-size: 40px !important;
+    }
+    p {
+      font-size: 16px;
+    }
+    .picture_decor_right {
+      display: none !important;;
+    }
   }
 `;

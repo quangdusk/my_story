@@ -45,10 +45,10 @@ export function QrCode() {
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
-        width={210}
+        width={550}
         closeIcon={false}
       >
-        <img src={QrCodeImage} style={{width: "100%"}} />
+        <img src={QrCodeImage} style={{width: "500px", height: "800px"}} />
       </Modal>
     </Wrapper>
   );

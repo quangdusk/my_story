@@ -9,7 +9,7 @@ export function InviteCenter() {
   var guest = queryParameters.get('guest');
   return (
     <Wrapper>
-      <h2 className='tittle_h2 tittle' style={{paddingTop: "100px"}}>Trân trọng kính mời</h2>
+      <h2 className='tittle_h2 tittle' style={{paddingTop: "50px"}}>Trân trọng kính mời</h2>
       <h1 className='tittle_h1 tittle'>{guest}</h1>
       <h3 className='tittle_h3 tittle'>tới dự hôn lễ của 2 vợ chồng vào hồi</h3>
       <Time user={user}/>
@@ -42,6 +42,9 @@ const Wrapper = styled.div`
     max-width: 500px;
     margin-top: 30px;
   }
+  .tittle_h3.tittle {
+    margin-bottom: 50px;
+  }
   @media only screen and (max-width: 672px) {
     .tittle_h2, .tittle_h3 {
       font-size: 20px;
@@ -49,5 +52,8 @@ const Wrapper = styled.div`
     .tittle_h1 {
       font-size: 30px;
     }
+    /* .tittle_h2.tittle {
+      padding-top: 50px !important;
+    } */
   }
 `;
