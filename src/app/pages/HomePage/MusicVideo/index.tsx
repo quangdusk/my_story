@@ -1,10 +1,11 @@
-import { noAuto } from '@fortawesome/fontawesome-svg-core';
 import * as React from 'react';
 import YouTube from 'react-youtube';
 import styled from 'styled-components/macro';
 
 export function MusicVideo() {
   const videoOptions = {
+    height: '500',
+    width: '100%',
     playerVars: {
       autoplay: 1,
       controls: 1,
@@ -16,7 +17,7 @@ export function MusicVideo() {
   };
   return (
     <Wrapper>
-      <YouTube videoId="JgTZvDbaTtg" opts={videoOptions} style={{width: "100%"}} />
+      <YouTube videoId="JgTZvDbaTtg" opts={videoOptions} />
     </Wrapper>
   );
 }
