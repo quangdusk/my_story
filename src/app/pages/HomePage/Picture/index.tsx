@@ -4,19 +4,21 @@ import { Col, Row } from 'antd';
 import Husband from 'images/Husband.jpeg';
 import StoryDecor from 'images/story-decor.png';
 import Date from 'images/Date.jpeg';
+import CauHon from 'images/CauHon.jpeg';
+import CongVien from 'images/CongVien.jpeg';
 
 export function Picture() {
   return (
     <Wrapper>
       <Row className="picture">
         <Col span={9} xs={9} sm={9} md={9} lg={9}>
-          <img src={Husband} />
+          <img src={CauHon} />
         </Col>
         <Col span={6} xs={6} sm={6} md={6} lg={6}>
           <img src={Date} />
         </Col>
         <Col span={9} xs={9} sm={9} md={9} lg={9}>
-          <img src={Husband} />
+          <img src={CongVien} />
         </Col>
       </Row>
       <Row className="story_decor" justify="space-around" align="middle">

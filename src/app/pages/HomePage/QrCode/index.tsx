@@ -7,9 +7,10 @@ import VBL from 'images/v-l.png';
 import VBR from 'images/v-r.png';
 import VB from 'images/v-b.png';
 import Heart from 'images/heart.png';
+import QrCodeWife from 'images/QrCodeWife.jpg';
 import QrCodeImage from 'images/qr_code.jpeg';
 
-export function QrCode() {
+export function QrCode(user) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const showModal = () => {
     setIsModalOpen(true);
@@ -23,8 +24,8 @@ export function QrCode() {
     <Wrapper>
       <div className="qr_code" onClick={showModal}>
         <ul>
-          <li >
-            <img src={Donate3}/>
+          <li>
+            <img src={Donate3} />
           </li>
         </ul>
         <div className="letter">
@@ -45,10 +46,10 @@ export function QrCode() {
         open={isModalOpen}
         onCancel={handleCancel}
         footer={null}
-        width={550}
+        width='auto'
         closeIcon={false}
       >
-        <img src={QrCodeImage} style={{width: "500px", height: "800px"}} />
+        <img src={user.user == 1 ? QrCodeWife : QrCodeImage} style={{ width: 'auto', height: '500px' }} />
       </Modal>
     </Wrapper>
   );

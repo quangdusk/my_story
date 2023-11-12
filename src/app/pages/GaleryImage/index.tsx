@@ -20,6 +20,7 @@ import DSC1750 from 'images/DSC_1750.jpg';
 import DSC1771 from 'images/DSC_1771.jpg';
 import DSC1777 from 'images/DSC_1777.jpg';
 import DSC1803 from 'images/DSC_1803.jpg';
+import DSC1726 from 'images/DSC_1726.jpg';
 
 export function GaleryImage() {
   return (
@@ -35,14 +36,15 @@ export function GaleryImage() {
         </div>
         <div className="column">
           <img src={DSC1562} />
-          <img src={DSC1574} />
           <img src={DSC1600} />
           <img src={DSC1603} />
           <img src={DSC1607} />
           <img src={DSC1628} />
+          <img src={DSC1638} />
         </div>
         <div className="column">
-          <img src={DSC1638} />
+          <img src={DSC1574} />
+          <img src={DSC1726} />
           <img src={DSC1738} />
           <img src={DSC1750} />
           <img src={DSC1771} />

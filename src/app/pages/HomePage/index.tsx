@@ -14,14 +14,13 @@ import { MusicVideo } from './MusicVideo';
 import { QrCode } from './QrCode';
 
 export function HomePage() {
+  const queryParameters = new URLSearchParams(window.location.search);
+  var user = queryParameters.get('userId');
   return (
     <>
       <Helmet>
         <title>QuangHongWedding</title>
-        <meta
-          name="description"
-          content="Đám cưới của Quang và Hồng"
-        />
+        <meta name="description" content="Đám cưới của Quang và Hồng" />
       </Helmet>
       <PageWrapper>
         <Card />
@@ -34,7 +33,7 @@ export function HomePage() {
         <Celebrate />
         <GaleryImage />
         <MusicVideo />
-        <QrCode />
+        <QrCode user={user} />
       </PageWrapper>
     </>
   );

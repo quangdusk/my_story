@@ -8,18 +8,18 @@ export function Time(user) {
         <Col span={8} xs={18} sm={18} md={18} lg={8}>
           <h2 className="tittle_h2 tittle">Thời gian</h2>
           <h2 className="tittle_h2 tittle">
-            {user.user == 1 ? '15:00' : '09:00'}
+            {user.user == 1 ? '16:00' : '16:00'}
           </h2>
         </Col>
         <Col className="border" span={8} xs={18} sm={18} md={18} lg={8}>
           <h2 className="tittle_h2 tittle">Thứ</h2>
           <h2 className="tittle_h2 tittle upper">
-            {user.user == 1 ? '06' : '05'}
+            {user.user == 1 ? '05' : '06'}
           </h2>
         </Col>
         <Col span={8} xs={18} sm={18} md={18} lg={8}>
-          <h2 className="tittle_h2 tittle">Tháng</h2>
-          <h2 className="tittle_h2 tittle">12.2023</h2>
+          <h2 className="tittle_h2 tittle">Ngày</h2>
+          <h2 className="tittle_h2 tittle">{user.user == 1 ? '23.11.2023' : '24.11.2023'}</h2>
         </Col>
       </Row>
     </Wrapper>
