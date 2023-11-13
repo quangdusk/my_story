@@ -49,7 +49,7 @@ export function QrCode(user) {
         width='auto'
         closeIcon={false}
       >
-        <img src={user.user == 1 ? QrCodeWife : QrCodeImage} style={{ width: 'auto', height: '500px' }} />
+        <img src={user.user == 1 ? QrCodeWife : QrCodeImage} style={{ width: '100%', height: '500px' }} />
       </Modal>
     </Wrapper>
   );
