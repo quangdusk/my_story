@@ -11,13 +11,13 @@ export function Picture() {
   return (
     <Wrapper>
       <Row className="picture">
-        <Col span={9} xs={9} sm={9} md={9} lg={9}>
+        <Col span={9} xs={24} sm={24} md={24} lg={24}>
           <img src={CauHon} />
         </Col>
-        <Col span={6} xs={6} sm={6} md={6} lg={6}>
+        <Col span={6} xs={24} sm={24} md={24} lg={24}>
           <img src={Date} />
         </Col>
-        <Col span={9} xs={9} sm={9} md={9} lg={9}>
+        <Col span={9} xs={24} sm={24} md={24} lg={24}>
           <img src={CongVien} />
         </Col>
       </Row>
