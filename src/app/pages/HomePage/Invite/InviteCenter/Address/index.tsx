@@ -6,7 +6,7 @@ import GirlLove from 'images/heartgirl.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-export function Address() {
+export function Address(user) {
   const [address, setAddress] = React.useState(1);
   const [click, setClick] = React.useState(false);
 
@@ -24,9 +24,9 @@ export function Address() {
         <div className="flip-card ">
           <div className={`flip-card-inner ${click && 'flip-card-rotate'}`}>
             <div className={`flip-card-front ${click && 'is-flipped'}`}>
-              <img src={BoyLove} onClick={hanhdleChangeAddress} />
+              <img src={user.user == 1 ? GirlLove : BoyLove} onClick={hanhdleChangeAddress} />
               <h3 className={`tittle_h3 tittle`}>
-                Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, TX.Thuận Thành, Tỉnh Bắc Ninh
+                {user.user == 1 ? "Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội" : "Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, TX.Thuận Thành, Tỉnh Bắc Ninh"}
                 <a
                   target="blank"
                   href="https://maps.app.goo.gl/imDdfN7CTgGbeXzh8"
@@ -36,9 +36,9 @@ export function Address() {
               </h3>
             </div>
             <div className={`flip-card-back ${click && 'is-flipped'}`}>
-              <img src={GirlLove} onClick={hanhdleChangeAddress} />
+              <img src={user.user == 1 ? BoyLove : GirlLove} onClick={hanhdleChangeAddress} />
               <h3 className={`tittle_h3 tittle`}>
-                Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội{' '}
+              {user.user == 1 ? "Xóm Hoà An, Khu phố Đạo Tú, Phường Song Hồ, TX.Thuận Thành, Tỉnh Bắc Ninh" : "Xóm Tây, Thôn Sen Hồ, Xã Lệ Chi, Huyện Gia Lâm, Thành phố Hà Nội"}
                 <a
                   target="blank"
                   href="https://maps.app.goo.gl/c2vpBSKez2e2n6zh7"

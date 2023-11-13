@@ -20,6 +20,7 @@ import DSC1750 from 'images/DSC_1750.jpg';
 import DSC1771 from 'images/DSC_1771.jpg';
 import DSC1777 from 'images/DSC_1777.jpg';
 import DSC1803 from 'images/DSC_1803.jpg';
+import DSC1726 from 'images/DSC_1726.jpg';
 
 export function GaleryImage() {
   return (

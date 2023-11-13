@@ -1,16 +1,23 @@
 import * as React from 'react';
+import YouTube from 'react-youtube';
 import styled from 'styled-components/macro';
 
 export function MusicVideo() {
+  const videoOptions = {
+    height: '500',
+    width: '100%',
+    playerVars: {
+      autoplay: 1,
+      controls: 1,
+      rel: 0,
+      showinfo: 0,
+      mute: 0,
+      loop: 1
+    }
+  };
   return (
     <Wrapper>
-      <iframe
-        width="100%"
-        height="600"
-        src="https://www.youtube.com/embed/TKlXc3iywoM?si=ujQtBW5mSEO9eU0h"
-        title="Một nhà"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      ></iframe>
+      <YouTube videoId="JgTZvDbaTtg" opts={videoOptions} />
     </Wrapper>
   );
 }

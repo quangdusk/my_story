@@ -13,7 +13,7 @@ export function InviteCenter() {
       <h1 className='tittle_h1 tittle'>{guest}</h1>
       <h3 className='tittle_h3 tittle'>tới dự hôn lễ của 2 vợ chồng vào hồi</h3>
       <Time user={user}/>
-      <Address />
+      <Address user={user}/>
     </Wrapper>
   );
 }
