@@ -1,7 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
 import { Col, Row } from 'antd';
-import Husband from 'images/Husband.jpeg';
 import StoryDecor from 'images/story-decor.png';
 import Date from 'images/Date.jpeg';
 import CauHon from 'images/CauHon.jpeg';

@@ -19,7 +19,7 @@ export function HomePage() {
   return (
     <>
       <Helmet>
-        <title>QuangHongWedding</title>
+        <title>ThiepmoiQuangHongWeding</title>
         <meta name="description" content="Đám cưới của Quang và Hồng" />
       </Helmet>
       <PageWrapper>
