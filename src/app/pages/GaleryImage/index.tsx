@@ -26,28 +26,28 @@ export function GaleryImage() {
     <Wrapper>
       <div className="row">
         <div className="column">
-          <img src={DSC1206} />
-          <img src={DSC1237} />
-          <img src={DSC1308} />
-          <img src={DSC1346} />
-          <img src={DSC1425} />
-          <img src={DSC1510} />
+          <img src={DSC1206} loading="lazy" />
+          <img src={DSC1237} loading="lazy" />
+          <img src={DSC1308} loading="lazy" />
+          <img src={DSC1346} loading="lazy" />
+          <img src={DSC1425} loading="lazy" />
+          <img src={DSC1510} loading="lazy" />
         </div>
         <div className="column">
-          <img src={DSC1562} />
-          <img src={DSC1574} />
-          <img src={DSC1600} />
-          <img src={DSC1603} />
-          <img src={DSC1607} />
-          <img src={DSC1628} />
+          <img src={DSC1562} loading="lazy" />
+          <img src={DSC1574} loading="lazy" />
+          <img src={DSC1600} loading="lazy" />
+          <img src={DSC1603} loading="lazy" />
+          <img src={DSC1607} loading="lazy" />
+          <img src={DSC1628} loading="lazy" />
         </div>
         <div className="column">
-          <img src={DSC1638} />
-          <img src={DSC1738} />
-          <img src={DSC1750} />
-          <img src={DSC1771} />
-          <img src={DSC1777} />
-          <img src={DSC1803} />
+          <img src={DSC1638} loading="lazy" />
+          <img src={DSC1738} loading="lazy" />
+          <img src={DSC1750} loading="lazy" />
+          <img src={DSC1771} loading="lazy" />
+          <img src={DSC1777} loading="lazy" />
+          <img src={DSC1803} loading="lazy" />
         </div>
       </div>
       <Row className="story_decor" justify="space-around" align="middle">
