@@ -12,11 +12,21 @@ export function MusicVideo() {
       rel: 0,
       showinfo: 0,
       mute: 0,
-      loop: 1
-    }
+      loop: 1,
+    },
   };
+
   return (
     <Wrapper>
+      {/* <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/JgTZvDbaTtg?si=P7wtuGJOGyeR1hdG"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe> */}
       <YouTube videoId="JgTZvDbaTtg" opts={videoOptions} />
     </Wrapper>
   );

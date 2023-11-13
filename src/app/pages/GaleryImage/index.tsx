@@ -36,14 +36,15 @@ export function GaleryImage() {
         </div>
         <div className="column">
           <img src={DSC1562} loading="lazy" />
-          <img src={DSC1574} loading="lazy" />
           <img src={DSC1600} loading="lazy" />
           <img src={DSC1603} loading="lazy" />
           <img src={DSC1607} loading="lazy" />
           <img src={DSC1628} loading="lazy" />
+          <img src={DSC1638} loading="lazy" />
         </div>
         <div className="column">
-          <img src={DSC1638} loading="lazy" />
+          <img src={DSC1574} loading="lazy" />
+          <img src={DSC1726} loading="lazy" />
           <img src={DSC1738} loading="lazy" />
           <img src={DSC1750} loading="lazy" />
           <img src={DSC1771} loading="lazy" />
