@@ -27,7 +27,9 @@ export function Husband() {
               Nguyễn Đắc Quang
             </h1>
             <p className="tittle">
-              Chú rể là chồng của Dâu Tây và là 1 Lập trình viên.
+              Chú rể là người trầm tính, khá ít nói và trưởng thành so với độ
+              tuổi của mình. Tuy nhiên, lại là 1 chàng trai khá ấm áp, biết nấu
+              ăn và làm việc nhà.
             </p>
           </div>
         </Col>
@@ -109,7 +111,7 @@ const Wrapper = styled.div`
       font-size: 16px;
     }
     .picture_decor_right {
-      display: none !important;;
+      display: none !important;
     }
   }
 `;
