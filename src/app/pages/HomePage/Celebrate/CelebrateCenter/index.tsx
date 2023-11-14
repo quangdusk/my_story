@@ -75,7 +75,7 @@ export function CelebrateCenter() {
           <h3 className="vertical-timeline-element-title">12.01.2023</h3>
           <p>
             Hải Vân: nơi chúng mình gặp nhau, rồi yêu nhau. Kỷ niệm lần đầu hỗ
-            trợ bạn ý setup sự kiện Year and party ở Hải Vân. Công việc mà bạn ý
+            trợ bạn ý setup sự kiện Year end party ở Hải Vân. Công việc mà bạn ý
             yêu thích
           </p>
         </VerticalTimelineElement>
