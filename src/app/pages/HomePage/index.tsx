@@ -32,7 +32,7 @@ export function HomePage() {
         {/* <WeddingPicture /> */}
         <Celebrate />
         <GaleryImage />
-        {/* <MusicVideo /> */}
+        <MusicVideo />
         <QrCode user={user} />
       </PageWrapper>
     </>
