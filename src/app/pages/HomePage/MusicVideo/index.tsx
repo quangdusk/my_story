@@ -8,7 +8,7 @@ export function MusicVideo() {
     width: '100%',
     playerVars: {
       autoplay: 1,
-      controls: 1,
+      controls: 0,
       rel: 0,
       showinfo: 0,
       mute: 0,
@@ -18,15 +18,6 @@ export function MusicVideo() {
 
   return (
     <Wrapper>
-      {/* <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/JgTZvDbaTtg?si=P7wtuGJOGyeR1hdG"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe> */}
       <YouTube videoId="JgTZvDbaTtg" opts={videoOptions} />
     </Wrapper>
   );

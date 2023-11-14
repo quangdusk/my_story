@@ -10,29 +10,29 @@ export function Card() {
     <Wrapper>
       <Row>
         <Col
-          span={4}
-          xs={4}
-          sm={4}
-          md={4}
-          lg={4}
+          span={3}
+          xs={3}
+          sm={3}
+          md={3}
+          lg={3}
         >
           <CardLeft />
         </Col>
         <Col
-          span={16}
-          xs={16}
-          sm={16}
-          md={16}
-          lg={16}
+          span={18}
+          xs={18}
+          sm={18}
+          md={18}
+          lg={18}
         >
           <CardCenter />
         </Col>
         <Col
-          span={4}
-          xs={4}
-          sm={4}
-          md={4}
-          lg={4}
+          span={3}
+          xs={3}
+          sm={3}
+          md={3}
+          lg={3}
         >
           <CardRight />
         </Col>

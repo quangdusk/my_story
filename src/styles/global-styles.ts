@@ -38,7 +38,7 @@ export const GlobalStyle = createGlobalStyle`
     text-shadow: -2px 2px 0px rgba(28, 28, 28, 0.25);
     font-weight: 400;
     font-style: italic;
-    font-size: 85px;
+    font-size: 80px;
     font-family: Meow Script;
     margin: 0px;
   }
