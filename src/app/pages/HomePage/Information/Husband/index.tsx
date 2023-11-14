@@ -27,9 +27,7 @@ export function Husband() {
               Nguyễn Đắc Quang
             </h1>
             <p className="tittle">
-              Chú rể là người trầm tính, khá ít nói và trưởng thành so với độ
-              tuổi của mình. Tuy nhiên, lại là 1 chàng trai khá ấm áp, biết nấu
-              ăn và làm việc nhà.
+              Chú rể là một lập trình viên khá trầm tính và ít nói. Tuy nhiên lại là một chàng trai ấm áp và biết nấu ăn.
             </p>
           </div>
         </Col>
